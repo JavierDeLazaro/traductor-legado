@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Buscaremos la clave en los secretos del servidor
-genai.configure(api_key=st.secrets["AIzaSyBxfxDLa-Eq8j1QXzkyGu-nFyY5AFjMzYE"])
+genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 
 # 2. Diseño de la página
 st.title("Traductor de Sistemas Legados a Lenguaje Moderno 🚀")
